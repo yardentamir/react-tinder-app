@@ -9,10 +9,12 @@ p {
 }
 
 #fake-tinder {
-  max-width: 300px;
+  font-family: Varela Round, sans-serif;
   height: 100%;
   margin: 0 auto;
-  font-family: "Varela Round", sans-serif;
+  max-width: 300px;
+  border: 2px solid rgb(66, 66, 66);
+  border-radius: 15px;
 }
 #fake-tinder .header {
   padding: 5px 10px;
@@ -45,7 +47,6 @@ p {
   height: 350px;
   margin: 7px auto;
   border-radius: 7px;
-  border: solid 1px lightgray;
   background-size: cover;
 }
 #fake-tinder .cards .card.seven {
